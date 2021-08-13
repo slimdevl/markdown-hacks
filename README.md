@@ -2,9 +2,6 @@
 nginx
 ======
 
----
-
-<h1 id="header-1">Slim Report</h1>
 <table style="width:100%">
   <tr>
     <td>
