@@ -1,42 +1,35 @@
 # markdown-hacks
 
-<!DOCTYPE html>
-<html>
-<head>
-<style>
-.flex-container {
-  display: flex;
-  flex-wrap: nowrap;
-  background-color: DodgerBlue;
+Block Quote:
+> I’ve always been more interested
+> in the future than in the past.
+
+
+First Header | Second Header
+------------ | -------------
+Content cell 1 | Content cell 2
+Content column 1 | Content column 2
+
+```javascript
+function test() {
+ console.log("look ma’, no spaces");
 }
+```
 
-.flex-container > div {
-  background-color: #f1f1f1;
-  width: 100px;
-  margin: 10px;
-  text-align: center;
-  line-height: 75px;
-  font-size: 30px;
-}
-</style>
-</head>
-<body>
-<h1>Flexible Boxes</h1>
+- [x] this is a complete item
+- [ ] this is an incomplete item
+- [x] @mentions, #refs, [links](),
+**formatting**, and <del>tags</del>
+supported
+- [x] list syntax required (any
+unordered or ordered list
+supported)
 
-<div class="flex-container">
-  <div>1</div>
-  <div>2</div>
-  <div>3</div>
-  <div>4</div>
-  <div>5</div>
-  <div>6</div>
-  <div>7</div>
-  <div>8</div>
-</div>
 
-<p>Try to resize the browser window.</p>
-<p>A container with "flex-wrap: nowrap;" will never wrap its items.</p>
-<p><strong>Note:</strong> Flexbox is not supported in Internet Explorer 10 or earlier versions.</p>
+GitHub supports emoji!
+:+1: :sparkles: :camel: :tada:
+:rocket: :metal: :octocat: 
 
-</body>
-</html>
+#1
+github-flavored-markdown#1
+defunkt/github-flavored-markdown#1
