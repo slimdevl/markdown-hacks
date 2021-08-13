@@ -1,5 +1,48 @@
 # markdown-hacks
 
+<ol>
+<li>
+<p>A paragraph
+with two lines.</p>
+<pre><code>indented code
+</code></pre>
+<blockquote>
+<p>A block quote.</p>
+</blockquote>
+</li>
+</ol>
+
+### Dividers
+***
+---
+___
+
+## Cool way to make attention 
+
+<del>
+  *foo*
+</del>
+
+
+<blockquote>
+<h1>Foo</h1>
+<p>bar
+baz</p>
+</blockquote>
+
+## Pointless Code Block section
+<del>
+*Markdown*
+</del>
+
+<pre language="haskell"><code>
+import Text.HTML.TagSoup
+
+main :: IO ()
+main = print $ parseTags tags
+</code></pre>
+<p>okay</p>
+
 ## Table Of Contents
 <div class="toc">
   <ul>
@@ -11,6 +54,7 @@
 </div>
 <h1 id="header-1">Header 1</h1>
 <h2 id="header-2">Header 2</h2>
+
 
 
 # Another Table of Contents
@@ -55,6 +99,26 @@ function test() {
 }
 ```
 
+## Funky Tables
+<table><tr><td>
+<pre>
+**Hello**,
+
+_world_.
+</pre>
+</td></tr></table>
+
+@@ ANother
+<table><tr><td>
+<pre>
+**Hello**,
+<p><em>world</em>.
+</pre></p>
+</td></tr></table>
+
+
+
+# Check lists
 - [x] this is a complete item
 - [ ] this is an incomplete item
 - [x] @mentions, #refs, [links](),
