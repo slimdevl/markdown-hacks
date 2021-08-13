@@ -1,5 +1,17 @@
 # markdown-hacks
 
+## Table Of Contents
+<div class="toc">
+  <ul>
+    <li><a href="#a-collapsible-section-containing-code">A collapsible section containing code</a></li>
+      <ul>
+        <li><a href="#header-2">Header 2</a></li>
+      </ul>
+  </ul>
+</div>
+<h1 id="header-1">Header 1</h1>
+<h2 id="header-2">Header 2</h2>
+
 Block Quote:
 > I’ve always been more interested
 > in the future than in the past.
